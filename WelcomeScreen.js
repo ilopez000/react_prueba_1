@@ -1,5 +1,6 @@
 // WelcomeScreen.js
 import React, { useState } from 'react';
+import './styles.css';
 
 function WelcomeScreen({ onStartGame }) {
     const [playerName, setPlayerName] = useState(''); // Estado para almacenar el nombre del jugador

@@ -1,3 +1,4 @@
+import './styles.css';
 // ResultScreen.js
 function ResultScreen({ playerName, won }) {
     return (

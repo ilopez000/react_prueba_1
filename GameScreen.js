@@ -1,6 +1,7 @@
 // GameScreen.js
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import './styles.css';
 
 function GameScreen({ playerName, onEndGame }) {
     const [word, setWord] = useState('');

@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import WelcomeScreen from './WelcomeScreen';
 import GameScreen from './GameScreen';
 import ResultScreen from './ResultScreen';
+import './styles.css';
 
 function App() {
     const [playerName, setPlayerName] = useState('');
